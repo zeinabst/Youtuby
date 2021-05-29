@@ -1,0 +1,364 @@
+@font-face {
+    font-family: "cairoFont";
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+body {
+    font-family: "cairoFont", Arial, sans-serif;
+    background-color: #fafafa;
+}
+a {
+    color:#000;
+    text-decoration: none !important;
+}
+button {
+    background-color: transparent !important;
+    color: #bf40bf !important;
+    border-color: #bf40bf !important;
+}
+button:hover {
+    color: #fff !important;
+    background-color: #bf40bf !important;
+}
+.card-body {
+    min-width: 0;
+}
+.card .card-horizontal .card-body p {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+#top-menu .bg-light {
+    background-color: #fff !important;
+}
+#top-menu .video-icon {
+    background-color: #bf40bf;
+    color: #fff;
+    border-radius: 15%;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link {
+    color: #fff;
+    background-color: #bf40bf;
+}
+.navbar .login {
+    color: #bf40bf;
+}
+.modal .modal-header .close:hover {
+    color: #bf40bf !important;
+    background-color: transparent !important;
+}
+input.form-control:focus,
+button:focus {
+    box-shadow: none !important;
+}
+.card .card-icons {
+    position: relative;
+}
+time {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 3px;
+}
+.card .fa-play {
+    position: absolute;
+    top: 43%;
+    right: 45%;
+    color:#2c3131c7;
+    display: none;
+}
+.card:hover .fa-play {
+    display: inline;
+}
+.card:hover {
+    transform: translateY(-.9%);
+}
+.card {
+    transition: transform .5s;
+}
+.card .card-title {
+    height: 50px;
+    overflow: hidden;
+}
+#top-menu .fa-bars {
+    cursor: pointer;
+}
+.sidebar {
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%; 
+    background-color: #fff;
+    overflow: hidden; 
+    padding-bottom: 60px;
+}
+
+.sidebar:hover {
+    overflow-y: scroll;
+}
+.sidebar .purple {
+    color:#bf40bf;
+}
+.sidebar .list-group-item:hover {
+    color:#fff;
+    background-color: #bf40bf;
+}
+.sidebar .list-group-item:hover .purple {
+    color:#fff;
+}
+.sidebar .list-group-item {
+    width: 17rem;
+}
+#wrap.toggled .sidebar {
+    right: 0rem;
+}
+.sidebar::-webkit-scrollbar {
+    background: rgb(230,230,230);
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgb(179,179,179);
+    width:8px;
+}
+.layer {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: none;
+}
+.navbar .search-icon {
+    color: #bf40bf;
+    cursor: pointer;
+    padding: 15px 10px;
+    position: absolute;
+    top: 15px;
+    left: 132px;
+    display: none;
+}
+.navbar .search-icon:hover {
+    color: #fff;
+    background-color: #bf40bf;
+}
+.search-input {
+    position: fixed;
+    top: 72px;
+    border: none;
+    padding: 6px 23px;
+    height: 60px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+}
+.search-input:focus {
+    background-color: #efeeee;
+}
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+/*********************
+*********
+CHANNEL PAGE
+*********
+*********************/
+
+.channel-page .follow button {
+    color:#fff !important;
+    background-color: #bf40bf !important;
+}
+.channel-page .video-section .card:hover {
+    transform: translateY(0%);
+}
+time {
+    font-size: 13px;
+}
+.channel-page .social-media {
+    bottom: 18px;
+    left: 20px;
+}
+.channel-page .follow {
+    bottom: 18px;
+    right: 18px;
+}
+
+/*********************
+*********
+LOGO PAGE
+*********
+*********************/
+
+.history-right-column {
+    background-color: #fff;
+    height: 566px;
+}
+.list-group-item.active {
+    background-color: #bf40bf;
+    border-color: #bf40bf;
+}
+time {
+    bottom: 7px;
+    left: 29px;
+}
+.history-page .remove {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    color:#2c3131c7;
+    cursor: pointer;
+}
+
+/*********************
+*********
+SEARCH PAGE
+*********
+*********************/
+
+#search-filters-icon {
+    cursor: pointer;
+}
+.search-header .filter-column {
+    display: none;
+}
+input:checked+span {
+    color: #bf40bf;
+}
+time {
+    bottom: 7px;
+    left: 29px;
+}
+
+/*********************
+*********
+WATCH PAGE
+*********
+*********************/
+
+.card:hover {
+    transform: translateY(0%);
+}
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+.watch-icons i:hover {
+    cursor: pointer;
+ }
+ .watch-page #more {
+    display: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.card-inner {
+    display: none;
+}
+
+.public-comment .card .btn {
+    background-color: #921192;
+    border-color: #921192;
+    color: #fff;
+}
+.public-comment .card .btn:hover {
+    background-color: #b915b9;
+}
+
+time {
+    left: 24px !important;
+}
+
+.watch-page .fa-play {
+    right: 46% !important;
+}
+
+
+@media (max-width: 1115px) {
+    .navbar .collapse .form-inline {
+        display: none;
+    }
+    .navbar .search-icon {
+        display: inline;
+    }
+}
+@media (min-width: 1115px) {
+    .search-input {
+        display: none !important;
+    }
+}
+
+@media (max-width: 593px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+}
+@media (min-width: 594px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .card .card-horizontal .card-body .channel-img {
+        display: block;
+        margin-top: 10px;
+    }
+    .card .card-horizontal .card-body .channel-img>img {
+        margin-right: 0px !important;
+    }
+    h4 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; 
+    }
+}
+
+@media (max-width: 991px) {
+    .card {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card .card-top-image {
+        width: 100%;
+    }
+    .card .card-horizontal time {
+        left: 10px;
+    }
+    .card .card-horizontal .fa-play {
+        right: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
+    }
+    .fa-play {
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 1062px) {
+    #myBtn {
+        margin-bottom: 60px !important;
+    }
+}
+@media (max-width: 570px) {
+    .reply-time {
+        font-size: 10px;
+    }
+}
